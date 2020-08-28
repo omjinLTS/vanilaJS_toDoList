@@ -1,0 +1,55 @@
+body {
+    background-color: #34495e;
+    color: white;
+    text-align: center;
+}
+
+.time {
+    color: white;
+}
+
+.btn {
+    cursor: pointer;
+    color: green;
+}
+
+.form,
+.greeting {
+    display: none;
+}
+
+.showing {
+    display: block;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+.bgImage{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    animation: fadeIn 0.5s linear;
+}
+
+li{
+    color: black;
+    text-align: left;
+    margin-left: 80px;
+    margin-bottom: 4px;
+    /* border-bottom: 1px solid #efefef; */
+}
+
+button{
+    position: absolute;
+    left: 70px;
+}
